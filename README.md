@@ -17,7 +17,7 @@ A search engine where you can look up books and save then to a 'Your Books' if y
 
 ## Screenshot
 
-<img src="./src/assets/" width="50%" heigh="50%">
+<img src="./assets/screenshot.png" width="50%" heigh="50%">
 
 ### Contribution
 
