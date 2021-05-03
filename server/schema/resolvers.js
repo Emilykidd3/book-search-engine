@@ -40,10 +40,10 @@ const resolvers = {
     },
     saveBook: async (parent, { data }, context) => {
       if (context.user) {
-        const updatedUser = await User.findOneAndUpdate(
+        const updatedUser = await User.findByIdAndUpdate(
           { _id: context.user._id },
           { $push: { savedBooks: { data } } },
-          { new: true, runValidators: true }
+          { new: true }
         );
 
         return updatedUser;
@@ -56,7 +56,7 @@ const resolvers = {
           const updatedUser = await User.findOneAndUpdate(
             { _id: context.user._id },
             { $pull: { savedBooks: { bookId } } },
-            { new: true, runValidators: true }
+            { new: true }
           );
   
           return updatedUser;
