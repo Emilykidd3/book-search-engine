@@ -2,18 +2,18 @@
 
 ## Purpose
 
-A search engine where you can look up books and save then to a 'Your Books' if you are logged in.
+A user based search engine that allows you to look up books by category or title, and save then to a 'Your Books' when logged in.
 
 ## Built With
 
-- graphql
-- mongoose
+- Graphql
+- Mongoose
 - JavaScript
 - React
 
 ## Website
 
-[Click here](https://emilykidd3.github.io/book-search-engine/)
+[Click here](https://safe-hollows-56308.herokuapp.com/)
 
 ## Screenshot
 
